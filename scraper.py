@@ -17,6 +17,6 @@ def get_google_new_results( term, count ):
 
     return results
 
-items = get_google_new_results( 'leaves', 5 )
+items = get_google_new_results( 'The Bureau of Investigative Journalism', 2 )
 for i,e in enumerate(items):
     print '%d: %s' % (i+1,e,)
